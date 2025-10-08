@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+aiohttp
+redis
+prometheus-client
+pytest
+pytest-asyncio
+pytest-cov
+black
+python-dotenv
+requests
