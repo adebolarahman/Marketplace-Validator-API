@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 --- This document provides quick start guide for the Marketplace Validator API, and guidance on choosing between different validator implementations based on specific requirements, scale, and constraints. 
 
 
@@ -318,3 +319,7 @@ jobs:
           kubectl set image deployment/marketplace-validator \
             api=$ECR_REGISTRY/marketplace-validator:$GITHUB_SHA
           kubectl rollout status deployment/marketplace-validator
+=======
+# Marketplace-Validator-API
+Marketplace Validator API is a production-ready FastAPI application that validates credit card listings against Financial Conduct Authority compliance standards and marketplace quality guidelines. The system uses Groq's (Llama) to perform intelligent validation, identifying regulatory violations, prohibited language, and content quality issues.
+>>>>>>> f688fad9cd4e34f8c8c78ce929ad708fad922136
